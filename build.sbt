@@ -9,5 +9,5 @@ ThisBuild / libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.2.1" %
 
 lazy val root = (project in file("."))
   .settings(
-    name := "SparkTest"
+    name := "SparkDeequDataProfiling"
   )
